@@ -7,5 +7,6 @@ public class SpringBuildTest {
 		AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(JavaConfig.class);
 		System.out.println(ac.getBean(JavaConfig.class));
 		System.out.println("aaa");
+		System.out.println("dev");
 	}
 }
